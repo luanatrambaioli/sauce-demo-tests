@@ -1,0 +1,62 @@
+Test Cases for Products Page:
+
+
+1- Verify Product Sorting by Price (Low to High):
+Preconditions: User is logged in and on the Products page.
+Steps:
+Click on the filter dropdown.
+Select "Price (low to high)" option.
+Expected Result: Products are displayed in ascending order of price.
+Validation:
+Verify that the prices of products are arranged in ascending order.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2- Verify Product Details Page Navigation:
+Preconditions: User is logged in and on the Products page.
+Steps:
+Click on a product to view its details.
+Expected Result: User is navigated to the product details page, displaying the selected product's information.
+Validation:
+Verify that the correct product details are displayed on the product details page.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3- Verify Add to Cart Functionality:
+Preconditions: User is logged in and on the Products page.
+Steps:
+Click on the "Add to Cart" button for a product.
+Expected Result: The selected product should be added to the user's shopping cart, and the cart icon should update to reflect the added item.
+Validation:
+Verify that the product is added to the cart.
+Verify that the cart icon reflects the correct number of items.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+4- Verify Remove from Cart Functionality:
+Preconditions: User is logged in, and the selected product is already in the cart.
+Steps:
+Navigate to the shopping cart page.
+Click on the "Remove" button for the product.
+Expected Result: The selected product should be removed from the cart, and the cart total should be updated accordingly.
+Validation:
+Verify that the product is removed from the cart.
+Verify that the cart total is updated correctly.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+5- Verify Checkout Process:
+Preconditions: User is logged in, and products are added to the cart.
+Steps:
+Navigate to the shopping cart page.
+Click on the "Checkout" button.
+Expected Result: User should be navigated to the checkout page to complete the purchase process, providing shipping and payment information.
+Validation:
+Verify that the user is directed to the checkout page.
+Verify that the checkout process proceeds smoothly.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+6- Verify Continue Shopping Button:
+Preconditions: User is logged in and on the product details page.
+Steps:
+Click on the "Continue Shopping" button.
+Expected Result: User should be redirected back to the Products page to continue browsing other products.
+Validation:
+Verify that the user is redirected to the Products page.
+Verify that the user can continue browsing other products.
+
+
+
+
+

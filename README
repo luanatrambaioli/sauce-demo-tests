@@ -1,7 +1,6 @@
 SauceDemo Automation Test README
 This README file provides instructions and explanations related to automating tests for the SauceDemo web application using Selenium WebDriver with Java and Maven.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Setup*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*Setup*
 1. Prerequisites
 Java Development Kit (JDK) installed on your system.
 Eclipse IDE or any other Java IDE installed (optional but recommended).
@@ -24,7 +23,7 @@ Copy code
     </dependency>
 </dependencies>
 Add the ChromeDriver executable to your project's directory and set its path in your Selenium code.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Running Tests*
 1. Login Test
 The LoginPage class handles the login functionality.
@@ -42,11 +41,11 @@ Use the clickAboutOption method of the SideMenu class to navigate to the "About"
 
 4. Checkout Test
 Use the fillCheckoutInfo method to fill in checkout information with random data.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Troubleshooting*
 If you encounter any errors or warnings, check the dependencies, ChromeDriver version, and browser compatibility.
 Ensure that the Selenium WebDriver version is compatible with the ChromeDriver version and the Chrome browser version installed on your system.
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *Contributing*
 Contributions to improve the automation tests or enhance the README are welcome.
 Fork the repository, make your changes, and submit a pull request.
